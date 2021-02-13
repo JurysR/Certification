@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html {
+    color: #fff;
+    background-color: #ddd;
+    font-family:  Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 40px;
+    margin: 0;
+}
+
+form {
+    text-align: left;
+    padding: 10%;
+    padding-top: 0;
+    margin-left: 5px;
+}
+
+.group {
+    margin: 0 auto 20px auto;
+}
+
+
+label {
+    display: flex;
+    padding-bottom: 7px;
+}
+
+.label-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*input, textarea, select*/
+.input-text {
+    width: 100%;
+    border-radius: 4px;
+    border: 0px solid #000;
+    padding: 5px 5px;
+
+}
+
+.input-checkbox, .input-radio {
+    width: auto;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.input-text:focus {
+  border-color: #fff;
+  outline: 1;
+  box-shadow: 0 0 0 0.2rem rgba(173, 181, 189);
+}
+
+textarea {
+    min-height: 100px;
+    padding: 10px;
+}
+
+button {
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+    border: 0px solid #000;
+    padding: 5px 0;
+}
+
+button:hover {
+    background-color: #aaa;    
+}

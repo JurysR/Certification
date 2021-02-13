@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for your response</p>
+
+        <form id="survey-form">
+            <div class="group">
+                <label id="name-label" for="name" class="label-title">
+                    <span>Name</span>
+                </label>
+                <input id="name" type="text" name="name" class="input-text" placeholder="Enter your name" required>
+            </div>
+            <div class="group">
+                <label id="email-label" for="email" class="label-title">
+                    <span>Email</span>
+                </label>
+                <input id="email" type="email" name="email" class="input-text" placeholder="Enter your email" required>
+            </div>
+            <div class="group">
+                <label id="number-label" for="age" class="label-title">
+                    <span>Age</span>
+                </label>
+                <input id="number" type="number" name="age" class="input-text" placeholder="Enter your age" min="12" max="99" required>
+            </div>
+            <div class="group">
+                <label for="activity" class="label-title">
+                    <span>Choose your activity level</span>
+                </label>
+                <select id="dropdown" name="activity" class="input-text">
+                    <option disabled="" selected="" value="Chose your activity">Chose your activity</option>
+                    <option value="Not exercising">Not exercising</option>
+                    <option value="Workout at home">Workout at home</option>
+                    <option value="Exercise in gym/outdoor">Exercise in gym/outdoor</option>
+                </select>
+            </div>
+            <div class="group">
+                <label class="label-title">
+                    <span>What is your goal?</span>    
+                </label>
+
+                <label>
+                <input class="input-checkbox" type="checkbox" name="goal" value="Loose weight">Loose weight
+                </label>
+
+                <label>
+                <input class="input-checkbox" type="checkbox" name="goal" value="Gain musscle">Gain muscle
+                </label>
+
+                <label>
+                <input class="input-checkbox" type="checkbox" name="goal" value="Get fit">Get fit
+                </label>
+            </div>
+            <div class="group">
+                <label class="label-title">
+                    <span>Would you recommend exercise?</span>    
+                </label>
+
+                <label>
+                <input class="input-radio" type="radio" name="recommend" value="Never">Never
+                </label>
+
+                <label>
+                <input class="input-radio" type="radio" name="recommend" value="Maybe">Maybe
+                </label>
+
+                <label>
+                <input class="input-radio" type="radio" name="recommend" value="Certainly">Certainly
+                </label>
+            </div>
+            <div class="group">
+                <label class="label-title">
+                    <span>Additional response</span>    
+                </label>
+                <textarea name="response" id="responese" class="input-text" placeholder="Enter your response here..."></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
