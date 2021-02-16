@@ -2,8 +2,39 @@
 <html>
 <head>
     <title></title>
+    <meta charset="UTF-8">  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <!-- header elements -->
+    <header id="header">
+        <img src="#" alt="Logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#Home">Home</a></li>
+                <li><a class="nav-link" href="#Showcase">Showcase</a></li>
+                <li><a class="nav-link" href="#Products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- main elements -->
+    <main>
+
+        <!-- video element -->
+        <iframe id="video" width="729" height="410" src="https://www.youtube.com/embed/mxAKzp4O1NA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- form elements -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+            <label id="emaill" for="email">
+                <span>Email</span>
+            </label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+            <input type="submit" id="submit" value="Submit">
+
+        </form>
+    </main>
 </body>
 </html>
