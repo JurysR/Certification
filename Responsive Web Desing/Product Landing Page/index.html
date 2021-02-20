@@ -6,35 +6,72 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <!-- header elements -->
-    <header id="header">
-        <img src="#" alt="Logo" id="header-img">
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#Home">Home</a></li>
-                <li><a class="nav-link" href="#Showcase">Showcase</a></li>
-                <li><a class="nav-link" href="#Products">Products</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- main elements -->
-    <main>
-
-        <!-- video element -->
-        <iframe id="video" width="729" height="410" src="https://www.youtube.com/embed/mxAKzp4O1NA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <!-- form elements -->
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-
+<!-- header elements -->
+<header id="header">
+    <img src="img/casio-logo.svg" alt="Logo" id="header-img">
+    <nav id="nav-bar">
+        <ul>
+            <li><a class="nav-link" href="#Home">Home</a></li>
+            <li><a class="nav-link" href="#Showcase">Showcase</a></li>
+            <li><a class="nav-link" href="#Products">Products</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- main elements -->
+<main>
+    <!-- form elements -->
+    <section id="form">
+        <form action="https://www.freecodecamp.com/email-submit">
             <label id="emaill" for="email">
                 <span>Email</span>
             </label>
             <input id="email" type="email" name="email" placeholder="Enter your email" required>
-
             <input type="submit" id="submit" value="Submit">
-
         </form>
-    </main>
+    </section>
+
+    <!-- video element -->
+    <section id="video">
+        <iframe id="video" width="729" height="410" src="https://www.youtube.com/embed/mxAKzp4O1NA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- products -->
+    <section id="products" style="display: flex;">
+        <!-- list -->
+        <div id="product-list">
+            <img src="img/product-1.jpg" width="300px">
+            <div id="product-title">Casio EFR-556PC-2A</div> 
+            <h2>$180</h2>
+            <ul>
+                <li>Lorem ipsum consectetur proident velit.</li>
+                <li>Velit quis.</li>
+                <li>Lorem ipsum irure irure in.</li>
+            </ul>
+        </div>
+
+        <div id="product-list">
+            <img src="img/product-2.jpg" width="300px">
+            <div id="product-title">Casio GST-B200-1A</div> 
+            <h2>$360</h2>
+            <ul>
+                <li>Lorem ipsum consectetur proident velit.</li>
+                <li>Velit quis.</li>
+                <li>Lorem ipsum irure irure in.</li>
+            </ul>
+        </div>
+
+        <div id="product-list">
+            <img src="img/product-3.jpg" width="300px">
+            <div id="product-title">Casio EFR-547L-7A</div> 
+            <h2>$140</h2>
+            <ul>
+                <li>Lorem ipsum consectetur proident velit.</li>
+                <li>Velit quis.</li>
+                <li>Lorem ipsum irure irure in.</li>
+            </ul>
+        </div>
+    </section>
+</main>
 </body>
 </html>
