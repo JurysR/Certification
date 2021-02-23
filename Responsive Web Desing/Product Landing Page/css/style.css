@@ -3,6 +3,7 @@
   padding: ;
   box-sizing: border-box;
   text-decoration: none;
+
 }
 
 body {
@@ -19,15 +20,17 @@ body {
   position: fixed;
   width: 100%;
   background-color: #212529;
-  height: 90px;
+  height: 75px;
   top: 0px;
+  z-index: 10;
 }
 
 #header > img {
   float: left;
-  margin: 1em;
+  margin: 18px;
   max-width: 100%;
   height: auto;
+  overflow: auto;
 }
 
 nav {
@@ -43,4 +46,29 @@ ul li{
 #form {
   margin-top: 90px;
   position: relative;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  margin: 20px auto;
+}
+
+#products {
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  font-size: 16px;
+}
+
+#product-list {
+  margin: 10px;
+  width: calc(100% / 3);
+}
+
+#product-list > img {
+  width: 100%;
 }
