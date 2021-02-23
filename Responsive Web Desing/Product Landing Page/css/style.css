@@ -1,0 +1,46 @@
+* {
+  margin: ;
+  padding: ;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ADB5BD ;
+  font-family:  Arial, Times New Roman;
+  font-size: 1.6rem;
+  color: #fff;
+  /*max-width: 960px;*/
+  margin: 0 auto;
+  text-align: center; 
+  }
+
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: #212529;
+  height: 90px;
+  top: 0px;
+}
+
+#header > img {
+  float: left;
+  margin: 1em;
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  text-decoration: none;
+  float: right;
+  color: #fff;
+}
+
+ul li{
+  display: inline-block;
+}
+
+#form {
+  margin-top: 90px;
+  position: relative;
+}
