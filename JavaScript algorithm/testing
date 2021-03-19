@@ -1,0 +1,10 @@
+function palindrome(str) {
+  var pal = str.toLowerCase;
+  if (str === pal) {
+  return true;
+  }
+}
+
+
+
+palindrome("eye");
